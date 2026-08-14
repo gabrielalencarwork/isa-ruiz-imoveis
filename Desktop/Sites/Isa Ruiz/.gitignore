@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs
+dist/
+build/
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch setup scripts
+copy_photo.js
+copy_photo.py
+organize_assets.js
