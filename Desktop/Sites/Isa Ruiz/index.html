@@ -77,10 +77,11 @@
     
     <!-- Background Video (60% Opacity) -->
     <div class="hero-video-bg">
-      <video class="hero-video-element" autoplay loop muted playsinline poster="assets/isa-ruiz-hero-portrait.png">
+      <video class="hero-video-element" autoplay loop muted playsinline poster="isa-ruiz-hero-portrait.png">
+        <source src="hero-bg-video.mp4" type="video/mp4">
         <source src="assets/hero-bg-video.mp4" type="video/mp4">
-        <source src="assets/Criar_movimento_de_c%C3%A2mera_202608141701.mp4" type="video/mp4">
         <source src="public/hero-bg-video.mp4" type="video/mp4">
+        <source src="src/assets/hero-bg-video.mp4" type="video/mp4">
       </video>
       <div class="hero-video-overlay"></div>
     </div>
@@ -136,7 +137,7 @@
         <!-- Hero Visual Profile Card -->
         <div class="hero-visual">
           <div class="profile-card-container">
-            <img src="assets/isa-ruiz-hero-portrait.png" alt="Isa Ruiz Corretora e Investidora Imobiliária" class="profile-img">
+            <img src="isa-ruiz-hero-portrait.png" onerror="if(!this.dataset.t){this.dataset.t=1;this.src='assets/isa-ruiz-hero-portrait.png';}" alt="Isa Ruiz Corretora e Investidora Imobiliária" class="profile-img">
             <div class="profile-overlay-badge">
               <div class="profile-badge-icon">
                 <i class="fas fa-gem"></i>
@@ -868,7 +869,7 @@
     <div class="whatsapp-popup" id="waPopup">
       <div class="popup-header">
         <div class="popup-header-user">
-          <img src="assets/isa-ruiz-hero-portrait.png" alt="Isa Ruiz" class="popup-avatar">
+          <img src="isa-ruiz-hero-portrait.png" onerror="if(!this.dataset.t){this.dataset.t=1;this.src='assets/isa-ruiz-hero-portrait.png';}" alt="Isa Ruiz" class="popup-avatar">
           <div>
             <div class="popup-name">Isa Ruiz</div>
             <div class="popup-status"><i class="fas fa-circle" style="font-size: 0.5rem; color: #25D366;"></i> Online agora</div>
